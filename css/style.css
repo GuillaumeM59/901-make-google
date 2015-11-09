@@ -15,7 +15,7 @@ section img { position: relative; display: block;margin: auto;}
 aside {}
   form {display: block;width: 100%;}
   #textzone { display: block; width: 100%; padding: 1%; margin-top: 3%; border: 1px solid #666; border-radius: 2%;}
-  .bouton { display: inline-block; width: 25%;margin-left: 17%;line-height: 2em;
+  .bouton { display: inline-block; width: auto;margin-left: 17%;line-height: 2em;
   color: #757575; background-color: #F7F7F7;border: 2px solid #F7F7F7;}
 
   /*footer*/
@@ -24,3 +24,7 @@ aside {}
   footer aside a { text-decoration: none; color:#666;font-size: 0.9em;}
   #footleft {float: left;}
   #footright {float: right;}
+
+  @media all and (max-width:600px){
+    footer { position:none;}
+  }
