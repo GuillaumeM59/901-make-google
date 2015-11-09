@@ -28,7 +28,7 @@ aside {}
   @media all and (max-device-width:600px){
 section img {display: block;width: 60%;}
     article {width: 96%;}
-    .bouton{ display: inline;;}
+    .bouton{ display: inline;}
     footer { display: block; position:none; background-color: none}
 
   }
