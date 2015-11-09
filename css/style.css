@@ -1,0 +1,26 @@
+/*header*/
+header { display: block;
+  width: 100%;}
+  header ul {text-align: right;margin-right: 6%;}
+  header ul li { display: inline-block;margin: 0; margin-left: 2%; padding: 0; text-decoration: none;text-align: right;height: 30px;font-style: Arial;}
+  header ul li a { font-size: 1em;font-style: Arial;color: #000; opacity: 0.85;text-decoration: none; padding: 3% 6%;}
+  #connect{ color: white;background-color: #4683EA;margin-right: 3%;height: 30px;}
+  #menugoogle { position: relative; top: 8px;
+    display:inline-block; padding-top: 5%;}
+/* article*/
+article { width: 50%; margin: auto;}
+section { position: relative;}
+/* search part*/
+section img { position: relative; display: block;margin: auto;}
+aside {}
+  form {display: block;width: 100%;}
+  #textzone { display: block; width: 100%; padding: 1%; margin-top: 3%; border: 1px solid #666; border-radius: 2%;}
+  .bouton { display: inline-block; width: 25%;margin-left: 17%;line-height: 2em;
+  color: #757575; background-color: #F7F7F7;border: 2px solid #F7F7F7;}
+
+  /*footer*/
+  footer { display: block; position: fixed; width: 96%;left: 0; bottom: 0; padding-bottom: 2% 1%; padding:2%;background-color: rgb(224, 224, 224);}
+  footer aside {display: inline-block;}
+  footer aside a { text-decoration: none; color:#666;font-size: 0.9em;}
+  #footleft {float: left;}
+  #footright {float: right;}
