@@ -25,7 +25,7 @@ aside {}
   #footleft {float: left;}
   #footright {float: right;}
 
-  @media all and (max-width:600px){
+  @media all and (max-device-width:600px){
     article {width: 96%;}
-    footer { position:none;}
+    footer { position:relative;}
   }
