@@ -26,9 +26,9 @@ aside {}
   #footright {float: right;}
 
   @media all and (max-device-width:600px){
-section img {width: 50%;}
+section img {display: block;width: 50%;}
     article {width: 96%;}
     .bouton{ display: inline;margin-left: 2%;}
-    footer { display: block; position:none;}
+    footer { display: block; position:none; background-color: none}
 
   }
